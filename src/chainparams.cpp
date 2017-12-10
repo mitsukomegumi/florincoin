@@ -206,6 +206,12 @@ public:
         vSeeds.push_back(CDNSSeedData("seed2.florincoin.com", "seed2.florincoin.com"));
         vSeeds.push_back(CDNSSeedData("seed3.florincoin.com", "seed3.florincoin.com"));
         vSeeds.push_back(CDNSSeedData("seed4.florincoin.com", "seed4.florincoin.com"));
+        vSeeds.push_back(CDNSSeedData("nyc2.entertheblockchain.com", "nyc2.entertheblockchain.com"));
+        vSeeds.push_back(CDNSSeedData("sf1.entertheblockchain.com", "sf1.entertheblockchain.com"));
+        vSeeds.push_back(CDNSSeedData("am2.entertheblockchain.com", "am2.entertheblockchain.com"));
+        vSeeds.push_back(CDNSSeedData("sgp.entertheblockchain.com", "sgp.entertheblockchain.com"));
+        vSeeds.push_back(CDNSSeedData("ind.entertheblockchain.com", "ind.entertheblockchain.com"));
+        vSeeds.push_back(CDNSSeedData("de.entertheblockchain.com", "de.entertheblockchain.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(35);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(8);
