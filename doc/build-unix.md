@@ -71,8 +71,8 @@ Note: on some systems, you may need to install each libboost package individuall
  You can add the repository using the following command:
 
 	sudo apt-get install software-properties-common
-        sudo add-apt-repository ppa:bitcoin/bitcoin
-        sudo apt-get update
+	sudo add-apt-repository ppa:bitcoin/bitcoin
+	sudo apt-get update
 
  Ubuntu 12.04 and later have packages for libdb5.1-dev and libdb5.1++-dev,
  but using these will break binary wallet compatibility, and is not recommended.
