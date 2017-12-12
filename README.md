@@ -7,4 +7,7 @@ Florincoin - the first coin to feature transaction comments
  - 90 blocks to retarget difficulty
  - A comments field can be included in a transaction for use between coin sender and receiver.
 
+Linux build notes:
+https://github.com/florincoin/florincoin/blob/master/doc/build-unix.md
+
 http://www.florincoin.org/
