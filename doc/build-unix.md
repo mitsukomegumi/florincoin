@@ -62,10 +62,15 @@ Build requirements:
 for Ubuntu 12.04 and later or Debian 7 and later libboost-all-dev has to be installed:
 
 	sudo apt-get install libboost-all-dev
+	
+Note: on some systems, you may need to install each libboost package individually. If libboost-all-dev is not found or doesn't install everything on your system, try this:
+
+	sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
 
  db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
  You can add the repository using the following command:
 
+	sudo apt-get install software-properties-common
         sudo add-apt-repository ppa:bitcoin/bitcoin
         sudo apt-get update
 
